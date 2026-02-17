@@ -13,3 +13,5 @@ accCity="ob"
 console.log(accountId);
 
 console.table([email,accountPass,accCity])
+
+console.log(accountId,email,accountPass,accCity);

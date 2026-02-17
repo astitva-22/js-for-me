@@ -18,3 +18,6 @@ console.table([typeof undefined, typeof null]);
 // dhyan dena undeifined hi rheta h but null ek object hai 
 
 
+//sikh rhe 
+console.log("Astitva");
+
