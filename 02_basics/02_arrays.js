@@ -19,4 +19,3 @@ const score3=100;
 
 console.log(Array.of(score1,score2,score3)); // make array from given values
 
-.
