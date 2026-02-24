@@ -5,6 +5,8 @@ const arr1 = new Array("Astitva", "Shukla");
 
 myArr.push(6); // pushes in last
 console.log(myArr);
+console.log(arr1);
+
 
 myArr.pop(); // pops last element;
 
