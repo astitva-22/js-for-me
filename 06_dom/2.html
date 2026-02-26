@@ -22,6 +22,22 @@
   for(let i=0; i<par.children.length; i++){
     console.log(par.children[i].innerHTML);
   }
+  par.children[1].style.color ='red';
+
+
+  const day = document.querySelector('.day');
+  console.log(day); // first day milega
+  console.log(day.nextElementSibling); // next sibling milega
+  console.log(day.previousElementSibling); // null milega, kyuki first element hai
+  console.log(day.parentElement); // parent milega
+  console.log(day.nextElementSibling); // next sibling milega
+  
+  
+  
+  
+  
+
+  console.log("Nodes:" ,par.childNodes); // NodeList milega, text nodes bhi milega
   
 </script>
-</html>
+</html> 
