@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  input{
+    width: 200px;
+    height: 30px;
+    font-style: italic;
+    border-radius: 5px;
+    border: 1px;
+    border-color: black;
+  }
+
+  body{
+    background-color: rgb(52, 55, 49);
+    color: white;
+  }
+  .one{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+  }
+  button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(130, 230, 253);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100px;
+  }
+  #result{
+    width: 200px;
+    margin-left: 10px;
+    font-style: italic;
+    border-radius: 5px;
+    border: 1px;
+    border-color: black;
+  }
+  
+</style>
+<body>
+  <h1 class="head">BMI Calculator</h1>
+  <form action="">
+  <p><label for="input">Enter Weight in KG:</label>
+  <input type="number" min='0' name="weight" id="w" placeholder="Enter Your Weight">
+</p>
+<p>
+  <label for="input"></label>Enter Hieght in CM:
+  <input type="number" min="1" name="height" id="h" placeholder="Enter Your height in cm" >
+</p>
+
+  <div class="one">
+
+    <button type="submit">Calculate</button>
+   
+  </div>
+  <div>
+    <span style="font-weight: bold; margin-left: 115px;">Your BMI:</span> <div id="result"></div>
+  </div>
+
+</form> 
+
+</body>
+<script src="pro2.js">
+</script>
+</html>
